@@ -1,5 +1,8 @@
-let nav=document.querySelector('nav');
-
-window.addEventListener('scroll',()=>{
-    nav.classList.toggle('naWinScroll',window,scrollY>0)
-})
+function openNavbar() {
+    document.getElementById("sideNavigationBar")
+        .style.width = "50%";
+}
+function closeNavbar() {
+    document.getElementById("sideNavigationBar")
+        .style.width = "0%";
+}
